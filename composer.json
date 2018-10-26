@@ -1,0 +1,39 @@
+{
+  "name": "shippeo/monolog-extra",
+  "description": "An extension to Monolog that adds handlers, formatters and processors. Includes integrations for Symfony.",
+  "keywords": [
+    "log",
+    "logging",
+    "psr-3"
+  ],
+  "homepage": "https://github.com/shippeo/monolog-extra",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mathias STRASSER",
+      "email": "contact@roukmoute.fr",
+      "homepage": "https://roukmoute.github.io"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "monolog/monolog": "^1.23"
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Shippeo\\Monolog\\": "src/Monolog"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}
