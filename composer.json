@@ -20,6 +20,9 @@
     "php": "^7.2",
     "monolog/monolog": "^1.23"
   },
+  "require-dev": {
+    "phpunit/phpunit": "^7.4"
+  },
   "config": {
     "preferred-install": {
       "*": "dist"
@@ -29,6 +32,11 @@
   "autoload": {
     "psr-4": {
       "Shippeo\\Monolog\\": "src/Monolog"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Shippeo\\Monolog\\": "tests/Monolog"
     }
   },
   "extra": {

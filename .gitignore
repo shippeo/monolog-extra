@@ -1,4 +1,5 @@
 ###> project ###
 /vendor/
 /composer.lock
+/var/
 ###< project ###
