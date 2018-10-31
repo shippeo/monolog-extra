@@ -1,0 +1,10 @@
+###> project ###
+/vendor/
+/composer.lock
+/var/
+###< project ###
+
+###> php-cs-fixer ###
+/.php_cs
+/.php_cs.cache
+###< php-cs-fixer ###
